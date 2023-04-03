@@ -234,7 +234,7 @@
  *				us to finish writing our data and to shutdown
  *				(we have to close() to move on to LAST_ACK)
  *
- *	TCP_LAST_ACK		out side has shutdown after remote has
+ *	TCP_LAST_ACK		our side has shutdown after remote has
  *				shutdown.  There may still be data in our
  *				buffer that we have to finish sending
  *
